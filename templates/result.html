@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Emotion Result</title>
+</head>
+<body style="font-family: Arial; text-align:center; margin-top:50px;">
+  <h2>Hi {{ name }} 👋</h2>
+  <p>Detected Emotion: <strong>{{ emotion }}</strong></p>
+  <p><strong>Comment:</strong> {{ comment }}</p>
+  
+  <img src="{{ url_for('static', filename='uploads/' + image) }}" width="200"><br><br>
+  <a href="/">Try another image</a>
+</body>
+</html>
