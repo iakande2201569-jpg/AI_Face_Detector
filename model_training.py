@@ -1,4 +1,4 @@
-'''
+
 # model_training.py
 import os
 import numpy as np
@@ -131,7 +131,6 @@ if __name__ == "__main__":
     print("Model saved as face_emotionModel.h5 ✅")
 
 
-'''
 
 
 

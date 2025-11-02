@@ -6,3 +6,4 @@ flask
 opencv-python
 pillow
 h5py
+gunicorn
