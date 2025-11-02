@@ -14,7 +14,7 @@ app.config['UPLOAD_FOLDER'] = 'static/uploads'
 # --- Load the trained model once ---
 model: Optional[Model] = None
 try:
-    loaded: Any = load_model("face_emotionmodel.h5")
+    loaded: Any = load_model("face_emotionModel.h5")
     if isinstance(loaded, Model):
         model = loaded
     else:
